@@ -6,18 +6,17 @@
 From a terminal, execute your lisp interpreter on the file 'family-tree.lisp'
 
 
-                                                                           Alfred - Barbara
-                               
-                                               /                              /                   \                      \
-                                           /                                /                      \                          \
-                                      /                                   /                          \                              \
-                           Ceaser - Ulla                    Daisy - Valence      Eric - Walentyna       Fabio
-                   /                |                 \                                                 /     \
-             /                      |                     \                                            /       \
-    Mabel - Xandra    Nadia - Yoshi    Odin                            Pablo     Qiana
-               |
-               |
-           Rachel
+                                     Alfred - Barbara
+                  /                    /               \             \
+               /                      /                 \               \
+             /                       /                   \                  \
+          Ceaser - Ulla            Daisy - Valence      Eric - Walentyna    Fabio
+       /              |         \                         /     \
+      /               |             \                    /       \
+    Mabel - Xandra   Nadia - Yoshi    Odin            Pablo     Qiana
+          |
+          |
+        Rachel
 
 ####Functions and Macros
     (show-siblings-of 'Pablo *family*)                      //Qiana
